@@ -1,0 +1,12 @@
+ public function index_navbar_map(){
+        
+        $this->load->view("Layout_din/tmp/indexBtSidebar",array('data'=>''));
+    }   
+    public function gl_idx(){
+        $this->load->view("Layout_din/tmp/GlMap",array('data'=>''));
+    
+    } 
+    public function lf_idx(){
+        $this->load->view("Layout_din/tmp/LfMap",array('data'=>''));
+    }
+         
